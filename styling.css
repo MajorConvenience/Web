@@ -1,0 +1,113 @@
+body {
+  font-family: "Mako", Arial;
+  margin: 0;
+  padding: 0;
+  background-image: url("Images/Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background: #333;
+  color: #D2B48C;
+  font-family: "Newsreader", Arial;
+  text-align: center;
+  font-size: 25;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background-image: url("Images/Logo.png");
+  background-repeat: no-repeat;
+  background-size: 8rem;
+  background-position: left;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  gap: 4rem;
+}
+
+nav a {
+  color: #D2B48C;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+#home1 {
+  width: 1000px;
+  height: 450px;
+  margin: 0 auto;
+  background-color: rgba(51, 51, 51, 0.8);
+  color: #D2BF8C;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 20px;
+}
+
+div {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 10rem;
+  background-color: rgba(51, 51, 51, 0.8);
+  color: #D2BF8C;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 20px;
+}
+
+.menu:hover {
+  background-color: #282828;
+  border-radius:5px;
+}
+
+#home2 {
+  padding-right: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  margin-right: 1rem;
+	
+  }
+.grid-section {
+  padding: 20px;
+  }
+ 
+.link {
+  color: #D2BF8C;
+}
+
+#Resume1 {
+  text-decoration: underline;
+}
+
